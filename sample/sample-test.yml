@@ -15,11 +15,11 @@ spring:
     
 datasource:
     writeDS:
-         url: jdbc:mysql://rm-uf69j55wv3m56puj5o.mysql.rds.aliyuncs.com:3306/b2b_market
+         url: jdbc:mysql://rm-uf69j55wv3m56puj5o.mysql.rds.aliyuncs.com:3306/b2b_market?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;noAccessToProcedureBodies=true&amp;generateSimpleParameterMetadata=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false
          username: root
          password: XiangYR-816
     readDS:
-         url: jdbc:mysql://rm-uf69j55wv3m56puj5o.mysql.rds.aliyuncs.com:3306/b2b_market
+         url: jdbc:mysql://rm-uf69j55wv3m56puj5o.mysql.rds.aliyuncs.com:3306/b2b_market?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;noAccessToProcedureBodies=true&amp;generateSimpleParameterMetadata=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false
          username: root
          password: XiangYR-816
     
