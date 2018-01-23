@@ -1,6 +1,6 @@
 swagger:  
    enable: true  # 是否开启swagger，建议生产关闭，默认true
-   basePackage: com.bqr.framework.sample.web  #swagger扫描的api包，不能为空
+   basePackage: com.lucloudtech.framework.sample.web  #swagger扫描的api包，不能为空
    title: 接入API列表  # 标题
    description: 接入API列表 #描述
    groupName: 测试组
